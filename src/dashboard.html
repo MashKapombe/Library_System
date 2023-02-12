@@ -15,7 +15,7 @@
                     <th class="flex px-4 py-2 text-[16px]"><a href="#">Library System</a></th>
                 </tr>
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="#">
+                    <td class="py-2 text-[14px] px-4"><a href="dashboard.html">
                             <svg class="w-4 h-4 inline-flex" fill="none" stroke="currentColor" stroke-width="1.5"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -105,7 +105,15 @@
             </table>
         </div>
 
-        <div class="w-full bg-white mt-8">
+        <div class="flex flex-col w-full">
+        <div class="flex justify-end mt-2 pb-1 mr-16">
+            <form class="">
+                <input type="text" placeholder="search by bookid" id="query1" name="query1">
+                <button class="bg-[#DDDDDD] w-30 px-2">Search</button>
+            </form>
+        </div>
+
+        <div class="min-h-screen bg-white">
             <table class="flex justify-center w-full mt-4">
                 <tr class="grid grid-cols-6 bg-[#0000FF] w-full text-end border-black text-white">
                     <th class="pl-20 pr-2 h-full pt-2 self-end text-[10px] border-r border-black">Book <br>Id</th>
@@ -143,6 +151,7 @@
 
 
         </div>
+    </div>
 
     </div>
 </body>
