@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
+    <script src="src/main.js"></script>
 </head>
 
-<body class="bg-[#042331]">
+<body class="bg-[#042331] w-full">
     <div class="flex flex-row-2 min-h-screen w-full">
-        <div class="w-48 text-white mt-8">
-            <table class="table-auto w-full">
+        <div class="w-48 sm:px-6 lg:px-2 text-white mt-4 lg:mt-8">
+            <table class=" w-full">
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <th class="flex px-4 py-2 text-[16px]"><a href="#">Library System</a></th>
+                    <th class="flex py-2 text-[16px]"><a href="#">Library System</a></th>
                 </tr>
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="dashboard.html">
+                    <td class="py-2 text-[14px] px-4"><a class="inline-flex" href="dashboard.html">
                             <svg class="w-4 h-4 inline-flex" fill="none" stroke="currentColor" stroke-width="1.5"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -25,10 +26,11 @@
                                     d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 16.5h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z">
                                 </path>
                             </svg>
-                            Dashboard</a></td>
+                            Dashboard</a>
+                        </td>
                 </tr>
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="addbook.html">
+                    <td class="py-2 text-[14px] px-4"><a class="inline-flex" href="addbook.html">
                             <svg class="w-4 h-4 inline-flex" fill="none" stroke="currentColor" stroke-width="1.5"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -38,7 +40,7 @@
                             Add Book</a></td>
                 </tr>
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="addstudent.html">
+                    <td class="py-2 text-[14px] px-2 lg:px-4"><a class="inline-flex" href="addstudent.html">
                             <svg class="w-4 h-4 inline-flex" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                 fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
@@ -46,7 +48,7 @@
                             Add Student</a></td>
                 </tr>
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="issuebook.html">
+                    <td class="py-2 text-[14px] px-4"><a class="inline-flex" href="issuebook.html">
                             <svg class="w-4 h-4 inline-flex" fill="none" stroke="currentColor" stroke-width="1.5"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -57,7 +59,7 @@
                 </tr>
             
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="viewstudent.html">
+                    <td class="py-2 text-[14px] px-2 lg:px-4"><a class="inline-flex" href="viewstudent.html">
                             <svg class="w-4 h-4 inline-flex" fill="none" stroke="currentColor" stroke-width="1.5"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -68,7 +70,7 @@
                 </tr>
               
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="returnbook.html">
+                    <td class="py-2 text-[14px] px-2 lg:px-4"><a href="returnbook.html">
                             <svg class="w-4 h-4 inline-flex" fill="none" stroke="currentColor" stroke-width="1.5"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -78,7 +80,7 @@
                             Return Book</a></td>
                 </tr>
                 <tr class="border-b border-black hover:bg-[#063146]">
-                    <td class="py-2 text-[14px] px-4"><a href="#">
+                    <td class="py-2 text-[14px] px-4 lg:px-4"><a class="inline-flex" href="#">
                             <svg class="w-4 h-4 inline-flex" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                 fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
@@ -90,46 +92,46 @@
         </div>
 
         <div class="flex flex-col w-full">
-            <div class="flex justify-end mt-2 pb-1 mr-16">
-                <form class="">
+            <div class="flex justify-end mt-2 pb-1 pr-0 lg:pr-20">
+                <form class="inline-flex">
                     <input type="text" placeholder="search by bookid" id="query1" name="query1">
                     <button class="bg-[#DDDDDD] w-30 px-2">Search</button>
                 </form>
             </div>
 
-            <div class="min-h-screen bg-white">
+            <div class="min-h-screen w-full bg-white">
                 <table class="flex justify-center w-full mt-4">
-                    <tr class="grid grid-cols-6 bg-[#0000FF] w-full text-end border-black text-white">
-                        <th class="pl-20 pr-2 h-full pt-2 self-end text-[10px] border-r border-black">Book <br>Id</th>
-                        <th class="pl-20 pr-2 h-full pt-2 self-end text-[10px] border-r border-black">Book <br>Name</th>
-                        <th class="pl-20 pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Subject</th>
-                        <th class="pl-20 pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Status</th>
-                        <th class="pl-20 pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Edit</th>
-                        <th class="pl-20 pr-2 self-end text-[10px] border-black">Delete</th>
+                    <tr class="grid grid-cols-6 gap-2 lg:gap-6 bg-[#0000FF] w-full text-end border-black text-white">
+                        <th class=" pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Book Id</th>
+                        <th class=" pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Book Name</th>
+                        <th class=" pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Subject</th>
+                        <th class=" pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Status</th>
+                        <th class=" pr-2 h-full pt-6 self-end text-[10px] border-r border-black">Edit</th>
+                        <th class=" pr-2 self-end text-[10px] border-black">Delete</th>
                     </tr>
-                    <tr class="grid grid-cols-6 gap-4 text-[10px] pb-2 pt-2 border-b border-black text-black">
+                    <tr class="grid grid-cols-6 gap-2 lg:gap-4 text-[10px] py-2 border-b border-black text-black">
                         <td>BE123H</td>
                         <td>Python</td>
                         <td>Programming</td>
                         <td>Issued</td>
-                        <td><a href=""><button class="bg-green-600 rounded w-10 py-2">Edit</button></a></td>
-                        <td><a href=""><button class="bg-red-600 rounded w-12 py-2 px-2">Delete</button></a></td>
+                        <td><a href=""><button class="bg-green-600 rounded px-2 lg:px-2 py-2">Edit</button></a></td>
+                        <td><a href=""><button class="bg-red-600 rounded  py-2 px-1 lg:px-2">Delete</button></a></td>
                     </tr>
-                    <tr class="grid grid-cols-6 gap-4 text-[10px] pb-2 pt-2 border-b border-black text-black">
+                    <tr class="grid grid-cols-6 gap-2 lg:gap-4 text-[10px] py-2 border-b border-black text-black">
                         <td>BE123H1</td>
                         <td>Java</td>
                         <td>Programming</td>
                         <td>Not Issued</td>
-                        <td><a href=""><button class="bg-green-600 rounded w-10 py-2">Edit</button></a></td>
-                        <td><a href=""><button class="bg-red-600 rounded w-12 py-2 px-2">Delete</button></a></td>
+                        <td><a href=""><button class="bg-green-600 rounded px-2 lg:px-2 py-2">Edit</button></a></td>
+                        <td><a href=""><button class="bg-red-600 rounded py-2 px-1 lg:px-2">Delete</button></a></td>
                     </tr>
-                    <tr class="grid grid-cols-6 gap-4 text-[10px] pb-2 pt-2  border-b border-black text-black">
+                    <tr class="grid grid-cols-6 gap-2 lg:gap-4 text-[10px] py-2 border-b border-black text-black">
                         <td>BE123H1</td>
                         <td>Java</td>
                         <td>Programming</td>
                         <td>Not Issued</td>
-                        <td><a href=""><button class="bg-green-600 rounded w-10 py-2">Edit</button></a></td>
-                        <td><a href=""><button class="bg-red-600 rounded w-12 py-2 px-2">Delete</button></a></td>
+                        <td><a href=""><button class="bg-green-600 rounded px-2 lg:px-2 py-2">Edit</button></a></td>
+                        <td><a href=""><button class="bg-red-600 rounded py-2 px-1 lg:px-2">Delete</button></a></td>
                     </tr>
                 </table>
 
